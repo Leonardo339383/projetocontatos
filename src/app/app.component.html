@@ -1,10 +1,16 @@
 <div>
-    <!-- Inserindo menu do layout -->
+ 
+    <!-- inserindo o menu do layout -->
     <app-menu-principal></app-menu-principal>
-
-    <!-- Área principal do layout -->
-    <div class="container mt3">
+ 
+    <!-- área principal do layout -->
+    <div class="container mt-3">
         <router-outlet></router-outlet>
     </div>
-
+ 
+    <!-- componente de carregamento de tela: ngx-spinner -->
+    <ngx-spinner size="medium" type="ball-scale-multiple"></ngx-spinner>
+ 
 </div>
+
+
