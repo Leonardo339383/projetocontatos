@@ -7,8 +7,7 @@ export class PasswordMatchValidator {
 
         //capturar os campos do formulário que serão validados
         let senha = abstractControl.get('senha')?.value;
-        let senhaConfirmacao = abstractControl
-                               .get('senhaConfirmacao')?.value;
+        let senhaConfirmacao = abstractControl.get('senhaConfirmacao')?.value;
 
         //verificar se os valores são diferentes
         if (senha != senhaConfirmacao) {

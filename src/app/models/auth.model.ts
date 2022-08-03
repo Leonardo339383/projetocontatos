@@ -6,7 +6,7 @@ export class Auth {
     idUsuario: string = '';
     nome: string = '';
     email: string = '';
-    accesToken: string = '';
+    accessToken: string = '';
     createdAt: Date | null = null;
     expiration: Date | null = null;
 }
